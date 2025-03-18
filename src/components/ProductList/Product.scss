@@ -1,0 +1,32 @@
+.my-carts{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    overflow-y: scroll;
+}
+.my-carts::-webkit-scrollbar{
+    width: 0px;
+}
+.carts{
+    width: 100%;
+    margin-top: 90px;
+    .h1-carts{
+        font-size: 23px;
+        font-weight: 600;
+    width: 100%;
+    padding-left:10px;
+    border-left: 20px solid #DB4444;
+    color: #DB4444;
+    }
+    .brand{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        h1{
+            font-size: 44px;
+            margin-top: -19px;
+        }
+    }
+}
